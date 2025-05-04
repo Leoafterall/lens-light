@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us - Lens & Light Studio</title>
+
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    body {
+      background-color: #0d1117;
+      font-family: 'Poppins', sans-serif;
+      color: #c9d1d9;
+    }
+
+    .navbar {
+      background-color: #161b22;
+    }
+
+    .navbar-brand, .nav-link {
+      color: #58a6ff !important;
+    }
+
+    .nav-link.active {
+      font-weight: 600;
+      color: #1f6feb !important;
+    }
+
+    .section-heading {
+      color: #58a6ff;
+    }
+
+    .form-control {
+      background-color: #21262d;
+      border: none;
+      color: #c9d1d9;
+    }
+
+    .form-control::placeholder {
+      color: #8b949e;
+    }
+
+    .btn-custom {
+      background-color: #238636;
+      color: white;
+      border: none;
+    }
+
+    .btn-custom:hover {
+      background-color: #2ea043;
+    }
+
+    footer {
+      background-color: #161b22;
+      color: #8b949e;
+    }
+
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Lens & Light</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon">&#9776;</span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="services page.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="section-heading mb-4 text-center">Get in Touch</h2>
+      <div class="row">
+        <!-- Contact Form -->
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-6 mt-4 mt-md-0">
+          <h5 class="mb-3">Studio Address</h5>
+          <p>No C404/2, Ramphal Chowk
+
+,<br>Dwarka, Sector 7
+New Delhi - 110075, <br> Opens at 11:30 AM </p>
+          <p><strong>Email:</strong> hello@lenslight.com</p>
+          <p><strong>Phone:</strong> +919535929271 </p>
+
+          <h5 class="mt-4 mb-3">Follow Us</h5>
+          <p>
+            <a href="#">Instagram</a><br>
+            <a href="#">Facebook</a><br>
+            <a href="#">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4">
+    <div class="container">
+      <p class="mb-1">&copy; 2025 Lens & Light Studio</p>
+      <small><a href="#">Back to Top</a></small>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 4 JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+	
+ 
